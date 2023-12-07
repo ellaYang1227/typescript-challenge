@@ -7,11 +7,26 @@
 
 ## 安裝流程
 
+### 安裝 NPM
+
 ```
-// 安裝 NPM
 npm install
-// 開發環境
+```
+
+### 開發環境
+
+```
 npm run dev
-// 執行測試檔
+```
+
+### 執行測試檔
+
+```
 npm run test
+```
+
+### 執行測試檔 - 生成測試覆蓋率報告
+
+```
+npm run test:coverage
 ```
