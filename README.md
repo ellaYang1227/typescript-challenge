@@ -55,4 +55,4 @@ coverage/index.html
 coverage-report/index.html
 ```
 
-![image](https://github.com/ellaYang1227/typescript-challenge/blob/main/FireShot%20Capture%20063%20-%20Code%20coverage%20report%20for%20All%20files%20-%20127.0.0.1.png?raw=true)
+![image](https://github.com/ellaYang1227/typescript-challenge/blob/main/coverage.png?raw=true)
