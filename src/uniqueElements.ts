@@ -6,4 +6,6 @@
  */
 export function uniqueElements(array: number[]): number[] {
     // 請在此處寫下你的程式碼
+    const set = new Set();
+    return array.filter(item => set.has(item) ? false : set.add(item));
 }

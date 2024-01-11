@@ -10,6 +10,24 @@
  * @param age - 一個需要被分類的年齡
  * @returns - 回傳年齡的分類結果
  */
-export function classifyAge(age: number): string {
+export enum ClassifyAgeName {
+    Child = "Child",
+    Teenager = "Teenager",
+    Adult = "Adult",
+    Senior = "Senior",
+}
+export function classifyAge(age: number): ClassifyAgeName {
     // 請在此處寫下你的程式碼
+    let text: ClassifyAgeName;
+    if (12 >= age) {
+        text = ClassifyAgeName.Child;
+    } else if (age > 12 && 18 > age) {
+        text = ClassifyAgeName.Teenager;
+    } else if (age > 17 && 65 > age) {
+        text = ClassifyAgeName.Adult;
+    } else {
+        text = ClassifyAgeName.Senior;
+    }
+
+    return text;
 }

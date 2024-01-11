@@ -7,6 +7,12 @@
 
 ## 安裝流程
 
+### 取得專案
+
+```
+git clone git@github.com:ellaYang1227/typescript-challenge.git
+```
+
 ### 安裝 NPM
 
 ```
